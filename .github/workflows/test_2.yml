@@ -1,9 +1,9 @@
-name: Test Environment Variables
+name: Test Environment Variables (Pull Request)
 
 # on: [push, pull_request]
 on:
-  push:
-    branches-ignore:
+  pull_request:
+    branches:
       - 'master'
       - '0*'
       - '1*'
